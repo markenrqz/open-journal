@@ -1,0 +1,20 @@
+<%-include('partials/header.ejs') %>
+
+
+    <h1><%= post.title %></h1>
+    <pre class="card"><%= post.content %></pre>
+
+    <div class="post">
+        <a class="button" href="/post/<%= post.id %>/edit" >Edit</a>
+        <form action="/post/<%= post.id %>/delete" method="POST" onsubmit="return confirmDelete()">
+            <button type="submit" class="button">Delete</button>
+        </form>
+    </div>
+
+    <script>
+        function confirmDelete() {
+          return confirm("Are you sure you want to delete this post?");
+        }
+      </script>
+
+<%-include('partials/footer.ejs') %>
