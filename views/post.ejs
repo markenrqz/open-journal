@@ -1,9 +1,9 @@
 <%-include('partials/header.ejs') %>
 
-
-    <h1><%= post.title %></h1>
-    <pre class="card"><%= post.content %></pre>
-
+    <div class="card">
+        <h1><%= post.title %></h1>
+        <pre><%= post.content %></pre>
+    </div>
     <div class="post">
         <a class="button" href="/post/<%= post.id %>/edit" >Edit</a>
         <form action="/post/<%= post.id %>/delete" method="POST" onsubmit="return confirmDelete()">

@@ -10,7 +10,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 var posts = [
     {
         id: 1,
-        title: "How I Became an aGWENger (Bini Gwen Stan 🐨)",
+        title: "aGWENgers, Assemble!",
         timestamp: "Nov 5, 2023 1:07am",
         content: `Sometimes, admiration happens in an instant. Other times, it grows over time, slowly unfolding as you learn more about a person’s story. For me, becoming an Agwenger—a fan of Bini Gwen—was a bit of both.
 
