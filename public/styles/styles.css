@@ -95,13 +95,13 @@ nav img {
     flex-direction: column;
     align-items: center;
     box-sizing: border-box; /* Ensures padding is included in width */
-    padding: 100px;
+    padding: 50px;
 }
 
 .container h1{
     margin: 10px;
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.8rem;
     color: #9ACBD0;
 }
 
@@ -109,7 +109,6 @@ nav img {
     display: grid;
     grid-template-columns: repeat(3, minmax(200px, 1fr));
     gap: 30px; /* Handles spacing between cards */
-    padding: 30px; /* Add padding to create space around the grid */
   }
   
 .card {
@@ -195,7 +194,7 @@ pre {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 80%;
+    width: 100%;
     max-width: 1000px;
     margin: 50px auto;
     padding: 20px;
